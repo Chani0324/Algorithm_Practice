@@ -44,5 +44,4 @@ def solution(numbers, target):
         sup = sub
     return sup.count(target)
 
-
-    
+print(solution([1,2,3], 4))
