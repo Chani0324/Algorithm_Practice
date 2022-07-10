@@ -32,9 +32,13 @@
 from collections import Counter
 
 def solution(participant, completion):
+
+    print((Counter(participant)))
     
     answer = list((Counter(participant) - Counter(completion)).keys())[0]
 
     return answer
 
 print(solution(["mislav", "stanko", "mislav", "ana"], ["stanko", "ana", "mislav"]))
+
+
