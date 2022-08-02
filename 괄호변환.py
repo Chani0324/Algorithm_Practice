@@ -33,4 +33,4 @@ def solution(p):
 
         
 
-print(solution("((()()))"))
+print(solution(")))()((("))
